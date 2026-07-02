@@ -12,6 +12,8 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 import turtle
 tina = turtle.Turtle()
 tina.shape('turtle')
+tina.color(')
+tina.speed(2)
 
 for i in range(5):
-    tina.
+    tina.forward(100)
