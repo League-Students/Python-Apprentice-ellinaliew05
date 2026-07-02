@@ -9,12 +9,17 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 
 (Hint: You can copy and modify your previous code!)
 
-import turtle
-tina = turtle.Turtle()
-tina.shape('turtle')
-tina.color('goldenrod)
-tina.speed(2)
+import turtle                           
+turtle.setup(600, 600, 0, 0)            
+
+tina = turtle.Turtle()                 
+tina.shape('turtle')                    
+tina.speed(2)                           
 
 for i in range(5):
-    tina.forward(100)
-    tina.left(80)
+    tina.forward(50)
+    tina.left()
+                           # Turn tina left by 90 degrees
+
+
+turtle.exitonclick()                    # Close the window when we click on it
