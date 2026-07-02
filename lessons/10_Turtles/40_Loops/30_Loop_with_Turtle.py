@@ -8,6 +8,7 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 - Run your program to verify that Tina the Turtle draws a pentagon.
 
 (Hint: You can copy and modify your previous code!)
+"""
 
 import turtle                           
 turtle.setup(600, 600, 0, 0)            
@@ -19,5 +20,6 @@ tina.speed(2)
 for i in range(5):
     tina.forward(50)
     tina.left(70)
-                           
 
+
+                           
