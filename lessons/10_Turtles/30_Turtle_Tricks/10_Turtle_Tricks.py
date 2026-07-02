@@ -15,17 +15,17 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 tina.speed(1)
 
-tina.pencolor('blue')
+tina.pencolor('steel blue')
 tina.penup()
 tina.goto(100,100)
 tina.pendown()
 tina.forward(100)
 
-tina.pencolor('gold')
+tina.pencolor('crimson')
 tina.left(120)
 tina.forward(100)
 
-tina.pencolor('')
+tina.pencolor('olive drab')
 tina.left(120)
 tina.forward(100)
 
