@@ -20,11 +20,17 @@ tina.speed(2)               # Create a turtle named tina
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
+tina.fillcolor('forestgreen')
 tina.begin_fill()
 tina.pencolor('forestgreen')
 tina.circle(30)
 tina.end_fill()
-tina.fillcolor('forestgreen')
+
+tina.penup()
+tina.goto(100,100)
+tina.pendown()
+
+tina.fillcolor('greenyellow')
 
 turtle.exitonclick()                    # Close the window when we click on it
 
