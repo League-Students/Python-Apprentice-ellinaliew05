@@ -24,14 +24,3 @@ def draw_polygon(4):
         tina.forward(50)                         # Move tina forward by the forward distance
         tina.left(90)                    # Turn tina left by the left turn
 
-draw_polygon(sqaure)                        # Draw a square
-
-tina.goto()                                  # Move tina to another spot on the screen
-
-draw_polygon(...)                        # Draw a pentagon
-
-...                                      # Move tina to another spot on the screen
-
-draw_polygon(...)                        # Draw a hexagon
-
-turtle.exitonclick()                     # Close the window when we click on it
