@@ -23,6 +23,8 @@ tina.speed(2)               # Create a turtle named tina
 tina.begin_fill()
 tina.pencolor('forestgreen')
 tina.circle(30)
+tina.end_fill()
+tina.fillcolor('forestgreen')
 
 turtle.exitonclick()                    # Close the window when we click on it
 
