@@ -20,12 +20,15 @@ tina.goto(100,100)
 tina.pendown()
 tina.forward(100)
 
+tina.pencolor('lightskyblue')
 tina.left(70)
 tina.forward(100)
 
+tina.pencolor('deepskyblue')
 tina.left(70)
 tina.forward(100)
 
+tina.pencolor('royalblue')
 tina.left(75)
 tina.forward(100)
 
