@@ -13,4 +13,3 @@ uid: BpGnQq64
 name: Loop With Turtle
 """
 
-... # Your code here
