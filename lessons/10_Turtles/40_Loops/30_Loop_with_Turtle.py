@@ -17,9 +17,10 @@ tina = turtle.Turtle()
 tina.shape('turtle')                    
 tina.speed(2)                           
 
+
 for i in range(5):
     tina.forward(50)
     tina.left(70)
 
-
+turtle.exitonclick() 
                            
