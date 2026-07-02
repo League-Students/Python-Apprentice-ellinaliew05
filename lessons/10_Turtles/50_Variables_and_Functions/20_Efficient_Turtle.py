@@ -21,11 +21,12 @@ def draw_polygon(sides):
     angles = 360/sides
 
 
-    for i in range(4): 
+    for i in range(sides): 
         tina.forward(50)                         
-        tina.left(angle)   
+        tina.left(angles)   
 
 
 draw_polygon(3)
-draw polygon(4)
-
+draw_polygon(4)
+draw_polygon(5)
+draw_polygon(6)
