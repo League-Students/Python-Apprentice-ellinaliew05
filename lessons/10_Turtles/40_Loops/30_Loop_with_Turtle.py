@@ -9,9 +9,9 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 
 (Hint: You can copy and modify your previous code!)
 
-uid: BpGnQq64
-name: Loop With Turtle
-"""
+import turtle
+tina = turtle.Turtle()
+tina.shape('turtle')
 
 for i in range(5):
-    
+    tina.
