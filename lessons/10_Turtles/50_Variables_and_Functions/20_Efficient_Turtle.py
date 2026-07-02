@@ -21,12 +21,12 @@ def draw_polygon(4):
     angle = 90                         # Calculate angle from number of sides
     
     for i in range(4):                 # Loop through the number of sides
-                                 # Move tina forward by the forward distance
-        ...                              # Turn tina left by the left turn
+        tina.forward(50)                         # Move tina forward by the forward distance
+        tina.left(90)                    # Turn tina left by the left turn
 
-draw_polygon(...)                        # Draw a square
+draw_polygon(sqaure)                        # Draw a square
 
-...                                      # Move tina to another spot on the screen
+tina.goto()                                  # Move tina to another spot on the screen
 
 draw_polygon(...)                        # Draw a pentagon
 
