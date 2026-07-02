@@ -18,8 +18,6 @@ tina.speed(2)
 
 for i in range(5):
     tina.forward(50)
-    tina.left()
-                           # Turn tina left by 90 degrees
+    tina.left(70)
+                           
 
-
-turtle.exitonclick()                    # Close the window when we click on it
