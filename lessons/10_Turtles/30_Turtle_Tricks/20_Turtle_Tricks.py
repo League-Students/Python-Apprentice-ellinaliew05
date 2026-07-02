@@ -18,6 +18,7 @@ tina.speed(2)
 tina.penup()
 tina.goto(100,100)
 tina.pendown()
+tina.pencolor('midnightblue')
 tina.forward(100)
 
 tina.pencolor('lightskyblue')
