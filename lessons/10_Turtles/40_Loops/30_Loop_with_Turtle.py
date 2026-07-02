@@ -17,10 +17,11 @@ tina = turtle.Turtle()
 tina.shape('turtle')                    
 tina.speed(2)                           
 
-
+tina.begin_fill()
 for i in range(5):
     tina.forward(50)
     tina.left(70)
+tina.end_fill()
 
 turtle.exitonclick() 
                            
