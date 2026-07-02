@@ -15,6 +15,7 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 tina.speed(1)
 
+tina.pencolor(blue)
 tina.penup()
 tina.goto(100,100)
 tina.pendown()
@@ -25,4 +26,5 @@ tina.forward(100)
 
 tina.left(120)
 tina.forward(100)
+
 turtle.exitonclick()                    # Close the window when we click on it
