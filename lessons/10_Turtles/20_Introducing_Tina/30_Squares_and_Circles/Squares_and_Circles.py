@@ -15,8 +15,8 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')
-tina.color()                    # Set the shape of the turtle to a turtle
-tina.speed(2)                           # Move at a moderate speed, not too fast.
+tina.color('yellow')                    # Set the shape of the turtle to a turtle
+tina.speed(6)                           # Move at a moderate speed, not too fast.
 
 ##
 ## Move Tina to the Starting Position
