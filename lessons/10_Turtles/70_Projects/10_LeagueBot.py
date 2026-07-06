@@ -14,10 +14,9 @@ import turtle
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor('white')
-set_turtle_image(t, "pikachu.gif")
 
-t.penup()   # Prevent drawing when moving
-t.speed(3)  # Set a moderate speed
+
 t = turtle.Turtle()
+set_turtle_image(t, "pikachu.gif")
 
 ... # Your Code Here
