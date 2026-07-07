@@ -11,7 +11,7 @@ def set_turtle_image(turtle, image_name):
     """Set the turtle's shape to a custom image."""
 
     from pathlib import Path                        # Import Path from pathlib module
-    image_dir = Path(__file__).parent / "images"    # Define the directory containing images
+    image_dir = Path(__file__).parent.parent / "images"    # Define the directory containing images
     image_path = str(image_dir / image_name)        # Create the full path to the image file
 
     screen = turtle.getscreen()                     # Get the turtle's screen
