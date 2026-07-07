@@ -79,7 +79,7 @@ for i in range(20):
     t.fillcolor('chartreuse')
     t.begin_fill()
     t.forward(30)
-    t.left(110)
+    t.left(120)
     t.forward(flame_size)
     t.right(170)
     t.forward(flame_size)
