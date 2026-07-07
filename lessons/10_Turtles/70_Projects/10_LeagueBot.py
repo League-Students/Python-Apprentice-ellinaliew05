@@ -38,5 +38,6 @@ t = turtle.Turtle()
 set_turtle_image(t, "pikachu.gif")
 t.pencolor('blue')
 
-
-... # Your Code Here
+for i in range(6):
+    t.speed(3)
+    t.
