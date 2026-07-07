@@ -42,3 +42,5 @@ for i in range(6):
     t.speed(1)
     t.forward(30)
     t.left(60)
+
+turtle.exitonclick()
