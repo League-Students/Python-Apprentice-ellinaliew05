@@ -33,9 +33,7 @@ set_turtle_image(t, "moustache1.gif")
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
 
-# Move the turtle to each corner of the screen in a square pattern
-for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
-    t.goto(x, y)
+t.goto(0,0)
 
 
 
