@@ -39,5 +39,6 @@ set_turtle_image(t, "pikachu.gif")
 t.pencolor('blue')
 
 for i in range(6):
-    t.speed(3)
+    t.speed(1)
     t.forward(30)
+    t.left(70)
