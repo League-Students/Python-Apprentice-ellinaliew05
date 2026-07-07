@@ -8,6 +8,37 @@ Write a program that:
 
 Hint: See the `10_More_Turtle_Programs` section labeled 'Set a Background Picture'.
 """
+import turtle
+
+def set_turtle_image(turtle, image_name):
+    """Set the turtle's shape to a custom image."""
+
+    from pathlib import Path                        # Import Path from pathlib module
+    image_dir = Path(__file__).parent.parent / "images"    # Define the directory containing images
+    image_path = str(image_dir / image_name)        # Create the full path to the image file
+
+    screen = turtle.getscreen()                     # Get the turtle's screen
+    screen.addshape(image_path)                     # Register the image as a shape
+    turtle.shape(image_path)                        # Set the turtle's shape to the image
+
+# Set up the screen
+screen = turtle.Screen()
+screen.setup(width=600, height=600)
+
+# Create a turtle and set its shape to the custom GIF
+t = turtle.Turtle()
+
+set_turtle_image(t, "moustache1")
+
+t.penup()   # Prevent drawing when moving
+t.speed(3)  # Set a moderate speed
+
+# Move the turtle to each corner of the screen in a square pattern
+for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
+    t.goto(x, y)
+
+
+
 
 import turtle
 
@@ -16,7 +47,7 @@ def set_background_image(window, image_name):
     from pathlib import Path                                        # Import Path from pathlib module
     from PIL import Image                                           # Import Image from PIL (Pillow) library
 
-    image_dir = Path(__file__).parent / "images"                    # Define the directory containing images
+    image_dir = Path(__file__).parent.parent / "images"                    # Define the directory containing images
     image_path = str(image_dir / image_name)                        # Create the full path to the image file
 
     image = Image.open(image_path)                                  # Open the image to get its dimensions
