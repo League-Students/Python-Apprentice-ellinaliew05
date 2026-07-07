@@ -39,7 +39,7 @@ for i in range(80):
     t.fillcolor(get_random_color())
     t.begin_fill()
     t.forward(80)
-    t.left(40)
+    t.left(10)
     t.forward(flame_size)
     t.right(100)
     t.forward(flame_size)
