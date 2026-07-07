@@ -10,7 +10,7 @@ name: Pentagon Crazy
 import random
 import turtle
 
-colors = ("white", "deepskyblue", "crimson", "mediumorchid", "midnightblue")
+colors = ("white", "white", "red", "red", "blue")
 
 def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
