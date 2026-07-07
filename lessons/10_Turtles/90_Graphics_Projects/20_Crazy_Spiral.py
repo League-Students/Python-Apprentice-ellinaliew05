@@ -36,10 +36,10 @@ t.speed(0)
 
 for i in range(80):
     t.pencolor('darkgreen')
-    t.fillcolor(get_random_color())
+    t.fillcolor('chartreuse')
     t.begin_fill()
-    t.forward(80)
-    t.left(10)
+    t.forward(20)
+    t.left(90)
     t.forward(flame_size)
     t.right(170)
     t.forward(flame_size)
