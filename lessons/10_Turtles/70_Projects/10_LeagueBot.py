@@ -17,6 +17,7 @@ screen.bgcolor('white')
 
 
 t = turtle.Turtle()
-set_turtle_image(t, "leag")
+set_turtle_image(t, "leaguebot_bot.gif")
+t.size(10, 10)
 
 ... # Your Code Here
