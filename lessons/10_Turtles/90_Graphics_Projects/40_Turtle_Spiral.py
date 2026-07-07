@@ -33,7 +33,7 @@ my_turtle.color("green")
 for i in range(50):
 
     # Set the turtle color to a random color
-    my_turtle.pencolor(get_random_color())
+    my_turtle.pencolor('')
 
     # Move the turtle (9*i) pixels. 'i' is the loop variable
     my_turtle.forward(9 * i)
