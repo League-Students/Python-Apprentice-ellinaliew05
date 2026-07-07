@@ -52,7 +52,7 @@ for i in range(20):
     t.fillcolor('tomato')
     t.begin_fill()
     t.forward(30)
-    t.left()
+    t.left(100)
     t.forward(flame_size)
     t.right(170)
     t.forward(flame_size)
