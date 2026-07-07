@@ -88,20 +88,6 @@ for i in range(20):
     t.end_fill()
 
 for i in range(20):
-    t.pencolor('navy')
-    t.fillcolor('mediumblue')
-    t.begin_fill()
-    t.forward(30)
-    t.left(90)
-    t.forward(flame_size)
-    t.right(170)
-    t.forward(flame_size)
-    t.right(67)
-    t.forward(base_size)
-    t.end_fill()
-
-
-for i in range(20):
     t.pencolor('midnightblue')
     t.fillcolor('deepskyblue')
     t.begin_fill()
@@ -119,7 +105,7 @@ for i in range(20):
     t.fillcolor('mediumorchid')
     t.begin_fill()
     t.forward(30)
-    t.left(140)
+    t.left(150)
     t.forward(flame_size)
     t.right(170)
     t.forward(flame_size)
