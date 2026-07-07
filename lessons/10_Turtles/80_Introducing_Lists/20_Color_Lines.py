@@ -22,5 +22,7 @@ tina.penup
 
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 for i in range(4):
-    tina.color(colors[-1-1])
+    tina.color(colors[-i-1])
+    tina.forward(50)
+    tina.left(90)
 turtle.exitonclick()                     # Close the window when we click on it
