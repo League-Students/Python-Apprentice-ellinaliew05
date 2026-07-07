@@ -25,7 +25,7 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-set_turtle_image(t, "pikachu.gif")
+set_turtle_image(t, "moustache1.gif")
 
 def turtle_clicked(t, x, y):
     """Function that gets called when the user clicks on the turtle
@@ -45,9 +45,6 @@ def turtle_clicked(t, x, y):
 
 # Connect the turtle to the turtle_clicked function
 t.onclick(lambda x, y, t=t: turtle_clicked(t, x, y))
-
-
-
 
 
 import turtle
