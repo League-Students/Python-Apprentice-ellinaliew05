@@ -17,7 +17,7 @@ def set_background_image(window, image_name):
 
     image = Image.open(image_path)                                  # Open the image to get its dimensions
     
-    window.setup(image.width, image.height, startx=0, starty=0)     # Set window size to image size
+    window.setup(600, 600, startx=0, starty=0)     # Set window size to image size
     window.bgpic(image_path)                                        # Set the background picture of the window
 
 turtle.setup(width=600, height=600)         # Set the size of the window
@@ -25,6 +25,6 @@ turtle.setup(width=600, height=600)         # Set the size of the window
 tina = turtle.Turtle()                      # Create a turtle named tina
 
 screen = turtle.Screen()                    # Get the screen that tina is on
-set_background_image(screen, "pikachu.gif")   # Set the background image of the screen
+set_background_image(screen, "leaguebot_bolt.gif")   # Set the background image of the screen
 
 turtle.exitonclick() 
