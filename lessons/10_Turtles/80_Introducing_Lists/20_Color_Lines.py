@@ -22,6 +22,7 @@ for color in colors:                            # loop through the colors
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 tina.penup
 tina.goto(100, 100)
+tina.pendown
 
 for i in range(4):
     tina.forward(50)
