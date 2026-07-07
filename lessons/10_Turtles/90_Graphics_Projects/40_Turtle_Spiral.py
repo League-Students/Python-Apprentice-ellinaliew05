@@ -34,7 +34,7 @@ for i in range(50):
 
     # Set the turtle color to a random color
     my_turtle.pencolor('greenyellow')
-    
+
     my_turtle.pencolor('forestgreen')
 
 
@@ -42,7 +42,7 @@ for i in range(50):
     my_turtle.forward(9 * i)
 
     # Turn the turtle (360/7 + i*5) degrees to the right
-    my_turtle.right(360 / 7 + i*5)
+    my_turtle.right(360 / 9 + i*5)
 
     # Change the turtle width to 'i' (the loop variable)
     my_turtle.width(i)
