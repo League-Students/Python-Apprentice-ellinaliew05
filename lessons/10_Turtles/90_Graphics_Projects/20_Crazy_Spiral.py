@@ -89,7 +89,7 @@ for i in range(20):
 
 for i in range(20):
     t.pencolor('navy')
-    t.fillcolor('chartreuse')
+    t.fillcolor('mediumblue')
     t.begin_fill()
     t.forward(30)
     t.left(90)
