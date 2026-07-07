@@ -60,4 +60,4 @@ tina = turtle.Turtle()                      # Create a turtle named tina
 screen = turtle.Screen()                    # Get the screen that tina is on
 set_background_image(screen, "emoji.png")   # Set the background image of the screen
 
-turtle.exitonclick() 
+turtle.done() # Important! Use `done` not `exitonclick` to keep the window open
