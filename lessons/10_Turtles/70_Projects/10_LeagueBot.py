@@ -40,4 +40,4 @@ t.pencolor('blue')
 
 for i in range(6):
     t.speed(3)
-    t.
+    t.forward(30)
