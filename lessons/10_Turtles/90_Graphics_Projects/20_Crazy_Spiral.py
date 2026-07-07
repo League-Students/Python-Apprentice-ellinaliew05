@@ -34,7 +34,7 @@ t.shape("turtle")
 t.width(2)
 t.speed(0)
 
-for i in range(80):
+for i in range(20):
     t.pencolor('darkgreen')
     t.fillcolor('chartreuse')
     t.begin_fill()
@@ -42,6 +42,19 @@ for i in range(80):
     t.left(90)
     t.forward(flame_size)
     t.right(170)
+    t.forward(flame_size)
+    t.right(67)
+    t.forward(base_size)
+    t.end_fill()
+
+for i in range(20):
+    t.pencolor('firebrick')
+    t.fillcolor('tomato')
+    t.begin_fill()
+    t.forward(30)
+    t.left(100)
+    t.forward(flame_size)
+    t.right(80)
     t.forward(flame_size)
     t.right(67)
     t.forward(base_size)
