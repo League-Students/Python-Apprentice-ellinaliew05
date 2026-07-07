@@ -35,6 +35,32 @@ t.width(2)
 t.speed(0)
 
 for i in range(20):
+    t.pencolor('firebrick')
+    t.fillcolor('tomato')
+    t.begin_fill()
+    t.forward(30)
+    t.left(100)
+    t.forward(flame_size)
+    t.right(170)
+    t.forward(flame_size)
+    t.right(67)
+    t.forward(base_size)
+    t.end_fill()
+
+for i in range(20):
+    t.pencolor('sienna')
+    t.fillcolor('gold')
+    t.begin_fill()
+    t.forward(30)
+    t.left(120)
+    t.forward(flame_size)
+    t.right(170)
+    t.forward(flame_size)
+    t.right(67)
+    t.forward(base_size)
+    t.end_fill()
+
+    for i in range(20):
     t.pencolor('darkgreen')
     t.fillcolor('chartreuse')
     t.begin_fill()
@@ -47,18 +73,6 @@ for i in range(20):
     t.forward(base_size)
     t.end_fill()
 
-for i in range(20):
-    t.pencolor('firebrick')
-    t.fillcolor('tomato')
-    t.begin_fill()
-    t.forward(30)
-    t.left(100)
-    t.forward(flame_size)
-    t.right(170)
-    t.forward(flame_size)
-    t.right(67)
-    t.forward(base_size)
-    t.end_fill()
 
 for i in range(20):
     t.pencolor('midnightblue')
@@ -66,19 +80,6 @@ for i in range(20):
     t.begin_fill()
     t.forward(30)
     t.left(110)
-    t.forward(flame_size)
-    t.right(170)
-    t.forward(flame_size)
-    t.right(67)
-    t.forward(base_size)
-    t.end_fill()
-
-for i in range(20):
-    t.pencolor('firebrick')
-    t.fillcolor('tomato')
-    t.begin_fill()
-    t.forward(30)
-    t.left(100)
     t.forward(flame_size)
     t.right(170)
     t.forward(flame_size)
