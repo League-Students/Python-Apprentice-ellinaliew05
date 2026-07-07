@@ -35,9 +35,9 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-t.shapesize(10, 10)
 set_turtle_image(t, "pikachu.gif")
 t.pencolor('blue')
+t.shapesize(10 * 10)
 
 for i in range(6):
     t.speed(1)
