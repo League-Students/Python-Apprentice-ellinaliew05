@@ -64,8 +64,6 @@ def set_background_image(window, image_name):
 
 turtle.setup(width=600, height=600)         # Set the size of the window
 
-tina = turtle.Turtle()                      # Create a turtle named tina
-
 screen = turtle.Screen()                    # Get the screen that tina is on
 set_background_image(screen, "emoji.png")   # Set the background image of the screen
 
