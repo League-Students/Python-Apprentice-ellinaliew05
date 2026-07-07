@@ -15,6 +15,7 @@ tina.speed(2)                           # Move at a moderate speed, not too fast
 colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
 for color in colors():                            # loop through the colors
+    tina.setcolor()
     tina.forward(50)
     tina.left(90)
 
