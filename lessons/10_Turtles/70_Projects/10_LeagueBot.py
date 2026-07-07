@@ -17,6 +17,6 @@ screen.bgcolor('white')
 
 
 t = turtle.Turtle()
-set_turtle_image(t, "pikachu.gif")
+set_turtle_image(t, "leag")
 
 ... # Your Code Here
