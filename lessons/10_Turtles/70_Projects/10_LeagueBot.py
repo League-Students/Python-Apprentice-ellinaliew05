@@ -41,4 +41,4 @@ t.pencolor('blue')
 for i in range(6):
     t.speed(1)
     t.forward(30)
-    t.left(70)
+    t.left(60)
