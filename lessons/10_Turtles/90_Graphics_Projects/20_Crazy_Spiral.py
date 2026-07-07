@@ -35,7 +35,7 @@ t.width(2)
 t.speed(0)
 
 for i in range(80):
-    t.pencolor('')
+    t.pencolor('darkgreen')
     t.fillcolor(get_random_color())
     t.begin_fill()
     t.forward(80)
