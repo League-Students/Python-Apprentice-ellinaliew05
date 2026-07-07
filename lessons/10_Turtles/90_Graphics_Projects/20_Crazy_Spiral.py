@@ -47,18 +47,6 @@ for i in range(20):
     t.forward(base_size)
     t.end_fill()
 
-    for i in range(20):
-    t.pencolor('darkred')
-    t.fillcolor('darkorange')
-    t.begin_fill()
-    t.forward(30)
-    t.left(100)
-    t.forward(flame_size)
-    t.right(170)
-    t.forward(flame_size)
-    t.right(67)
-    t.forward(base_size)
-    t.end_fill()
 
 
 for i in range(20):
