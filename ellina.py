@@ -9,14 +9,14 @@ def fractal_octagon(size, depth):
     if depth == 0:
         for i in range(8):
             tina.forward(size)
-            tina.left()
+            tina.left(135)
     else:
-        for i in range(30):
-            fractal_triacontagon(size/2, depth-1)
+        for i in range(8):
+            fractal_octagon(size/2, depth-1)
             tina.forward(size)
-            tina.left(90)
+            tina.left(135)
 
-fractal_triacontagon(200, 4)
+fractal_octagon(200, 3)
 
 
 turtle.exitonclick()
