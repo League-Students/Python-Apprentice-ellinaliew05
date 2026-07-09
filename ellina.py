@@ -19,4 +19,4 @@ def nudge(color):
 def fractal_cool(size, depth, color):
     tina.penup()
     if depth == 0:
-        tina.begin_fill
+        tina.begin_fill()
