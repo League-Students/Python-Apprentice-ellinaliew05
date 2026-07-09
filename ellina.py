@@ -13,4 +13,7 @@ def fractal_triangle(size, depth):
     tina.left(120)
 
 def nudge(color):
-    color += 1 + random.random() 
+    color += 1 + random.random() * 0.1 - 0.05
+    return color % 1
+
+def 
