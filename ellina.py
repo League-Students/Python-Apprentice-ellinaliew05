@@ -7,4 +7,3 @@ tina.speed(0)
 tna.shape('turtle')
 def fractal_triangle(size, depth): 
     if depth = 0
-    
