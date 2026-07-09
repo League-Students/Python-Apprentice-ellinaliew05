@@ -5,7 +5,7 @@ screen = turtle.Screen()
 screen.setup(600, 600)
 tina.speed(0)
 tina.shape('turtle')
-def fractal_square(size, depth): 
+def fractal_triacontagon(size, depth): 
     if depth == 0:
         for i in range(4):
             tina.forward(size)
