@@ -7,7 +7,7 @@ tina.speed(0)
 tina.shape('turtle')
 def fractal_triacontagon(size, depth): 
     if depth == 0:
-        for i in range(4):
+        for i in range(30):
             tina.forward(size)
             tina.left(90)
     else:
