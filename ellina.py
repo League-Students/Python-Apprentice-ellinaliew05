@@ -32,5 +32,5 @@ tina.penup()
 tina.goto(-275, -275)
 tina.pendown()
 random_color = (0,0.5,0.05)
-fractal_cool
+fractal_cool()
 turtle.exitonclick()
