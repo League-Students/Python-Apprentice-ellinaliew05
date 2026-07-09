@@ -20,4 +20,5 @@ def fractal_cool(size, depth, color):
     tina.penup()
     if depth == 0:
         tina.begin_fill()
-        tina.color
+        tina.color(color)
+        
