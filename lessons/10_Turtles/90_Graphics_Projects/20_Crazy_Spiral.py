@@ -35,8 +35,8 @@ t.width(2)
 t.speed(0)
 
 for i in range(20):
-    t.pencolor('firebrick')
-    t.fillcolor('tomato')
+    t.pencolor('limegreen')
+    t.fillcolor('greenyellow')
     t.begin_fill()
     t.forward(30)
     t.left(90)
@@ -48,8 +48,8 @@ for i in range(20):
     t.end_fill()
 
 for i in range(20):
-    t.pencolor('sienna')
-    t.fillcolor('gold')
+    t.pencolor('darkgreen')
+    t.fillcolor('forestgreen')
     t.begin_fill()
     t.forward(30)
     t.left(110)
