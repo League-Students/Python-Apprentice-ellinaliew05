@@ -31,6 +31,6 @@ tina.penup()
 tina.goto(-275, -275)
 tina.left(90)
 tina.pendown()
-random_color
+random_color = 
 
 turtle.exitonclick()
