@@ -20,7 +20,7 @@ def fractal_cool(size, depth, color):
             tina.forward(size)
             tina.left(90)
         tina.end_fill()
-else:
+    else:
     for i in range(4):
         color = (nudge(color[0]), nudge(color[1]), nudge(color[2]))
         fractal_cool(size/2, depth-1,color)
