@@ -16,7 +16,7 @@ def fractal_octagon(size, depth):
             tina.forward(size)
             tina.left(45)
 
-fractal_octagon(200, 3)
+fractal_octagon(200, 5)
 
 
 turtle.exitonclick()
