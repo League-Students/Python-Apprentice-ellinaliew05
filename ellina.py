@@ -12,7 +12,7 @@ def nudge(color):
     color += 1 + random.random() * 0.1 - 0.05
     return color % 1
 
-def fractal_cool(size, depth, color):
+def fractal_cool(size,depth,color):
     tina.penup()
     if depth == 0:
         tina.begin_fill()
@@ -32,5 +32,5 @@ tina.penup()
 tina.goto(-275, -275)
 tina.pendown()
 random_color = (0,0.5,0.05)
-fractal_cool()
+fractal_cool(550, 6)
 turtle.exitonclick()
