@@ -1,4 +1,5 @@
 import turtle
+import random
 
 tina = turtle.Turtle()
 screen = turtle.Screen()
@@ -31,6 +32,6 @@ tina.penup()
 tina.goto(-275, -275)
 tina.left(90)
 tina.pendown()
-random_color = 
+random_color = (0,0.5, )
 
 turtle.exitonclick()
