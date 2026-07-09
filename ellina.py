@@ -1,1 +1,2 @@
-def fractal_triangle(size, depth)
+def fractal_triangle(size, depth):
+    
