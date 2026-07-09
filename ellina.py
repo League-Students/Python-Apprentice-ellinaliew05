@@ -30,7 +30,6 @@ def fractal_cool(size, depth, color):
 
 tina.penup()
 tina.goto(-275, -275)
-tina.left(90)
 tina.pendown()
 random_color = (0,0.5,0.05)random.random().random.random().random.
 
