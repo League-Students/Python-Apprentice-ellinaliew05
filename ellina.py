@@ -9,12 +9,12 @@ def fractal_octagon(size, depth):
     if depth == 0:
         for i in range(8):
             tina.forward(size)
-            tina.left(135)
+            tina.left(45)
     else:
         for i in range(8):
             fractal_octagon(size/2, depth-1)
             tina.forward(size)
-            tina.left(135)
+            tina.left(45)
 
 fractal_octagon(200, 3)
 
