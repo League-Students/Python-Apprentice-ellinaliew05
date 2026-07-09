@@ -17,4 +17,9 @@ def fractal_cool(size, depth, color):
         tina.begin_fill()
         tina.color(color)
         for i in range(4):
-            
+            tina.forward(size)
+            tina.left(90)
+        tina.end_fill()
+else:
+    for i in range(4):
+        color 
