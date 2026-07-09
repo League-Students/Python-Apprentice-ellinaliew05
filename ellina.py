@@ -3,4 +3,5 @@ def fractal_triangle(size, depth):
     tina.forward(size)
     tina.left(120)
 
-def
+def nudge(color):
+    color == 
