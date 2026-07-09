@@ -12,4 +12,6 @@ def fractal_triangle(size, depth):
             tina.left(120)
     else:
         for i in range(3):
-            fractal_triangle(size)
+            fractal_triangle(size/2, depth-1)
+            tina.forward(size)
+            tina.left
