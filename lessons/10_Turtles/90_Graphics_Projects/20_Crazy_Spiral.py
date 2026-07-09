@@ -61,8 +61,8 @@ for i in range(20):
     t.end_fill()
 
 for i in range(20):
-    t.pencolor('midnightblue')
-    t.fillcolor('deepskyblue')
+    t.pencolor('seagreen')
+    t.fillcolor('aquamarine')
     t.begin_fill()
     t.forward(30)
     t.left(130)
@@ -74,7 +74,7 @@ for i in range(20):
     t.end_fill()
 
 for i in range(20):
-    t.pencolor('indigo')
+    t.pencolor('dark')
     t.fillcolor('mediumorchid')
     t.begin_fill()
     t.forward(30)
