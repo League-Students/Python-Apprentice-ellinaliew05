@@ -75,7 +75,7 @@ for i in range(20):
 
 for i in range(20):
     t.pencolor('midnightblue')
-    t.fillcolor('mediumorchid')
+    t.fillcolor('cyan')
     t.begin_fill()
     t.forward(30)
     t.left(150)
