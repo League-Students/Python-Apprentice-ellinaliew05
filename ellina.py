@@ -27,4 +27,10 @@ def fractal_cool(size, depth, color):
         tina.forward(size)
         tina.left(90)
 
+tina.penup()
+tina.goto(-275, -275)
+tina.left(90)
+tina.pendown()
+random_color
+
 turtle.exitonclick()
