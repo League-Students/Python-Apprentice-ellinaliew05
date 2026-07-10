@@ -18,9 +18,10 @@ def move_tina():
     show
     screen.ontimer(move_tina,2000)
 
-def show_animatronics(cam_num):
+def show_animatronics():
+    global cam_num
     #tina show
-    if(cam_num == tina_path[tina.progress]):
+    if(cam_num == tina_path[tina_progress]):
         tina.showturtle()
     else:
         tina.hideturtle()
