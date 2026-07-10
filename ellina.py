@@ -4,7 +4,7 @@ import time
 tina = turtle.Turtle()
 tina.shape("turtle")
 tina_path = (1,2,4,5)
-tina.progress = 0
+tina_progress = 0
 
 screen = turtle.Screen()
 screen.setup(500,500)
