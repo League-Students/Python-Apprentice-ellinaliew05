@@ -12,7 +12,7 @@ cam_colors = ('red', 'black', 'white', 'blue', 'green')
 
 def show_animatronics(cam_num):
     #tina show
-    if(cam_num == tina_path[tina.progress]
+    if(cam_num == tina_path[tina.progress])
 
 def open_cam_1():
     print("cam 1 open")
