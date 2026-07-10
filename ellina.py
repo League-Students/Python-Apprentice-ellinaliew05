@@ -53,12 +53,10 @@ def open_cam_4():
 def open_cam_5():
     global cam_num
     cam_num = 5
-    print("cam 5 open")
     screen.bgcolor(cam_colors[4])
     show_animatronics()
     
 def exit_cam():
-    print("cam exited")
     screen.bgcolor("yellow")
     show_animatronics()
 
