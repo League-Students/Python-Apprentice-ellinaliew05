@@ -26,6 +26,8 @@ def show_animatronics():
     else:
         tina.hideturtle()
 def open_cam_1():
+    global cam_num
+    cam_num = 1
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
     show_animatronics()
