@@ -20,5 +20,8 @@ def open_cam_2():
 screen.listen()
 screen.onkey(open_cam_1, "1")
 screen.onkey(open_cam_2, "2")
+screen.onkey(open_cam_2, "3")
+screen.onkey(open_cam_2, "2")
+screen.onkey(open_cam_2, "2")
 
 tina.exitonclick()
