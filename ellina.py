@@ -8,7 +8,7 @@ tina.progress = 0
 screen = turtle.Screen()
 screen.setup(500,500)
 
-cam_colors = ('red', 'orange', 'yellow', 'green', 'blue')
+cam_colors = ('red', 'orange', 'white', 'blue', 'green')
 
 def show_animatronics(cam_num):
     #tina show
@@ -20,6 +20,7 @@ def show_animatronics(cam_num):
 def open_cam_1():
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
+    show_animatronics(0)
 def open_cam_2():
     print("cam 2 open")
     screen.bgcolor(cam_colors[1])
